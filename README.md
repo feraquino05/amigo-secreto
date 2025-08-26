@@ -1,48 +1,66 @@
 <h1> JUEGO DEL AMIGO SECRETO </h1>
 
-Descripción
+Una pequeña aplicación web que permite agregar participantes y realizar un sorteo para asignar un amigo secreto aleatoriamente. Ideal para jugar entre amigos, familia o compañeros de trabajo.
 
-Un mini juego para el amigo secreto: ingresa al menos dos nombres de amigos y haz clic en "Sortear". Se elige un ganador aleatorio entre los nombres ingresados. Si se ingresa un solo nombre, se mostrará una alerta indicando que necesitas al menos dos amigos. Si no se ingresan datos, se mostrará una alerta pidiendo ingresar al menos un nombre. Al terminar el sorteo, el juego se limpia para poder empezar de nuevo ingresando nuevos nombres.
+🚀 Características
+
+✅ Permite agregar nombres a una lista de participantes.
+
+✅ Muestra en pantalla la lista de amigos agregados.
+
+✅ Valida que el campo de entrada no esté vacío antes de agregar un amigo.
+
+✅ Permite realizar el sorteo aleatorio entre los participantes.
+
+✅ Asegura que haya al menos dos participantes antes de realizar el sorteo.
+
+✅ Limpia la lista de amigos y muestra al "amigo secreto" seleccionado.
+
+✅ Interfaz simple y directa, ideal para uso rápido en reuniones o eventos sociales.
+
+📷 Vista previa
+
+<img width="1080" height="961" alt="unknown_2025 08 26-14 47" src="https://github.com/user-attachments/assets/acc2d39b-7a3b-4c9f-8f7f-9323e1af516e" />
 
 
-Validación de entrada:
-Con al menos dos nombres: se realiza el sorteo.
-Con un solo nombre: alerta "Necesitas al menos dos amigos para sortear".
-Sin datos: alerta "Por favor, ingresa el nombre de un amigo".
-Flujo de juego:
-Después de sortear, el campos de entrada se limpia automáticamente.
-Listo para comenzar un nuevo turno ingresando otros nombres.
-Interfaz simple y rápida para usar en cualquier ocasión de amigo secreto.
-Cómo ejecutar (instrucciones)
+🛠️ Tecnologías utilizadas
 
-Requisitos
-Navegador moderno (Chrome, Firefox, Edge, Safari).
-Pasos
-Abre el proyecto en tu navegador (archivo index.html o a través de un servidor local si aplica).
-En la sección de entradas, escribe al menos dos nombres, separados por comas o pulsando "Enter" entre cada uno (según implementación).
-Haz clic en "Sortear".
-Verás el nombre sorteado. Luego, los campos se limpiarán para un nuevo juego.
-Nota
-Si ingresas un solo nombre y haces clic en "Sortear", verás la alerta correspondiente.
-Si dejas los campos vacíos y haces clic en "Sortear", verás la alerta correspondiente.
-Contribuciones
+HTML
 
-¿Quieres contribuir? Crea un issue o un pull request con:
-Mejoras en la validación de entradas.
-Soporte para múltiples rondas/palabras clave.
-Mejores mensajes de alerta y UX.
-Estructura del proyecto (ejemplo)
+CSS (si tiene estilos personalizados)
 
-index.html -> Estructura de la página y elementos UI
-scripts/main.js -> Lógica de entrada, validaciones y sorteos
-styles/style.css -> Estilos de la interfaz
-README.md -> Este archivo
-Ejemplos de mensajes de alerta (texto sugerido)
+JavaScript
 
-"Necesitas al menos dos amigos para sortear"
-"Por favor, ingresa el nombre de un amigo"
-Notas de desarrollo
+⚙️ Cómo usar
 
-Mantener el estado de la lista de nombres hasta que se complete el sorteo.
-Asegurar que al terminar cada sorteo, la lista se limpie para permitir un nuevo juego sin recargar la página.
-Considerar añadir soporte para separar nombres por comas o por saltos de línea, según lo que ya implementaste.
+Clona este repositorio o descarga los archivos.
+
+Abre el archivo index.html en tu navegador.
+
+Escribe los nombres de los participantes uno a uno y haz clic en Agregar Amigo.
+
+Una vez que hayas agregado al menos dos personas, haz clic en Sortear Amigo.
+
+El sistema elegirá aleatoriamente un amigo secreto y lo mostrará en pantalla.
+
+📌 Nota
+
+Actualmente, el sorteo elige un único "amigo secreto" aleatorio de la lista.
+
+Después de sortear, la lista de amigos se reinicia automáticamente.
+
+🧠 Posibles mejoras
+
+Evitar que una persona se asigne a sí misma.
+
+Hacer el sorteo completo entre todos los participantes (una asignación única para cada uno).
+
+Agregar opción de eliminar un nombre de la lista.
+
+Mejorar el diseño con CSS o frameworks como Bootstrap.
+
+Exportar resultados en PDF o permitir imprimir.
+
+📄 Licencia
+
+Este proyecto está bajo la licencia MIT. Puedes usarlo y modificarlo libremente.
